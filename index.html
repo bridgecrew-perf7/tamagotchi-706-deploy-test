@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script defer src="app.js"></script>
+  <title>Tomagotchi</title>
+</head>
+<body>
+  <div id="name-pet-form">
+    <label for="">What is Your Pet's Name?</label>
+    <input id="name-pet-input" type="text">
+    <button id="name-pet-button">Submit</button>
+  </div>
+
+  <div id="game" class="game hide">
+
+    <div class="controls">
+      <button id="feed-button">Feed</button>
+      <button id="play-button">Play</button>
+      <button id="lights-button">Lights</button>
+
+      <button id="start-game" class="start-game">Start</button>
+      <button id="pause-game" class="pause-game hide">Pause</button>
+    </div>
+
+    <div class="pet-stats">
+      <p id="message"></p>
+      <p id="pet-hunger">Hunger: 0</p>
+      <p id="pet-sleepiness">Sleepiness: 0</p>
+      <p id="pet-boredom">Boredom: 0</p>
+    </div>
+  </div>
+</body>
+</html>
