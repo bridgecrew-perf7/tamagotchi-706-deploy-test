@@ -145,27 +145,3 @@ playButtonEl.addEventListener('click', playWithPet);
 feedButtonEl.addEventListener('click', feedPet);
 lightsButtonEl.addEventListener('click', switchLights);
 namePetButtonEl.addEventListener('click', handlePetNaming);
-
-
-class Monster {
-  constructor(name) {
-    this.name = name;
-    this.boredom = 0;
-    this.hunger = 0;
-    this.sleepiness = 0;
-  }
-}
-
-// Inside startGame function
-const myPet = new Monster('bob');
-
-{
-  name: 'bob',
-  hunger: 0,
-  sleepiness: 0,
-  boredom: 0
-}
-
-function handleFeedClick() {
-  myPet.hunger--;
-}

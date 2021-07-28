@@ -6,3 +6,7 @@
 .hide {
   display: none;
 }
+
+.pet-image {
+  width: 200px;
+}
